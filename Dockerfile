@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY ./app.py /app/
 
-CMD [ "streamlit", "serve", "app.py" ]
+CMD [ "streamlit", "run", "app.py" ]
