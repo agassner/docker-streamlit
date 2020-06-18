@@ -28,7 +28,7 @@ def main():
     countries = st.multiselect(
         "Choose countries",
         list(df.index),
-        ["China", "United States of America"]
+        ["China", "United States of America", "Brazil"]
     )
     if not countries:
         st.error("Please select at least one country.")
